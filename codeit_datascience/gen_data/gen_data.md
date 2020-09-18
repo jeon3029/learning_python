@@ -46,9 +46,9 @@
 - css 문법(생략)
 
 ## CSS 선택자
-- 태그 이름
-- 아이디
-- 클래스
+- 태그 이름 (이름만 작성)
+- 아이디 (#)
+- 클래스 (.)
 - 속성(attribute) : 이부분은 몰랐음
 ```css
 [alt="green-tea"] {
@@ -56,3 +56,18 @@
 }
 ```
 
+## CSS 선택자 조합 예제
+```css
+/* OR */
+.two, .four {
+  color: red;
+}
+/* AND */
+.favorite.private {
+  color: red;
+}
+/* 중첩 */
+p i {
+  color: red;
+}
+```
