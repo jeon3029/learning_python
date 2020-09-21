@@ -57,3 +57,26 @@
   - 각 Theta에 대해 편미분한 결과를 alpha를 곱해서 빼줌
 - Theta updata 일반화 공식
   - ![image6](image/img6.png)
+
+## 학습률 알파
+
+### 학습률 alphaα가 너무 큰 경우
+
+- ![image8](image/img7.PNG)
+- 극소점을 못찾은다
+
+### 학습률 alphaα가 너무 작은 경우
+
+- ![image8](image/img8.PNG)
+- 극소점을 찾는데 시간이 오래 걸린다.
+
+## 모델 평가하기
+
+- 일반적으로 사용하는 방법 : RMSE(Root Mean Square Error)
+- Training set / Test set 을 나누어 준다.
+- Test set으로 해당 모델을 평가
+
+## Scikit-Learn (사이킷 learn, sklearn)
+
+- sklearn.ipynb 참고
+- 
