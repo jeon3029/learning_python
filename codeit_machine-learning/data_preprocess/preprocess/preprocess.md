@@ -16,3 +16,25 @@
 ### sklearn - feature scaling
 
 - sklearn.ipynb 참고
+
+## 경사하강법
+
+- feature scaling 을 통해서 경사하강법을 빨리 할 수 있게 해준다
+- ![image2](image/img2.png)
+- 다항회귀나 로지스틱 회귀에서도 feature scaling을 통해 성능을 높일 수 있다
+
+## 표준화(normalization)
+
+- ![exp1](https://latex.codecogs.com/gif.latex?x_%7Bnew%7D%3D%5Cfrac%7Bx_%7Bold%7D-%5Cbar%7Bx%7D%7D%7B%5Csigma%20%7D)
+  - x-bar = 평균 / 시그마 = 표준편차
+- sklearn활용 : sklearn.ipynb참고
+
+## One-hot Encoding
+
+- 범주형 데이터 --> 수치형 데이터로 바꾸어 주어야 함
+  - A형 : 0 / AB형 1 ... 등
+  - 하지만, 이렇게 하면 범주 사이에 크고 작음이 생겨버림
+- 보통 One-hot Encoding 사용해서 범주형 -> 수치형 데이터로 만들어 줌
+- ![image3](image/img3.png)
+- pandas사용 -> one_hot_encoding.ipynb 참고
+
