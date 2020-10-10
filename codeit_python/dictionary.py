@@ -13,8 +13,10 @@ print(my_dic[9])
 
 for val in my_dic.values():
     print(val)
+print('---')
 for key in my_dic.keys():
     print(key)
+print('---')
 for key,value in my_dic.items():
     print(key,value)
 
